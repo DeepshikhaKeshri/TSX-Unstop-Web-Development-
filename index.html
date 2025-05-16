@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Profile-->
+    <section  id="home" class="profile-section text-center text-white d-flex flex-column align-items-center justify-content-center" style="position: relative;">
+    
+        <div class="overlay"></div>
+    
+        <div class="content z-1">
+        <h1 class="mt-5">Deepshikha Keshri</h1>
+        </div>
+    
+        <img src="images/profile.jpg" alt="Profile Image" class="profile-img mt-4 z-1">
+    
+    </section>
+
+    <!-- About Section -->
+<!-- About Section -->
+<section id="about" class="about-section text-white py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <p class="lead">
+          Hello! I'm <strong>Deepshikha Keshri</strong>, a Computer Science student with a strong interest in web development and Machine Learning. I create responsive, user-focused websites using HTML, CSS, JavaScript, Bootstrap, Node.js, and Express.js, and work with databases like MySQL and PostgreSQL.
+        </p>
+        <p>
+          Proficient in C++, Python, and Java, I enjoy building practical ML models, solving real-world problems, and crafting intuitive user interfaces. I'm always eager to learn, collaborate, and contribute to impactful, innovative projects.
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="education" class="education-section py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5"><i class="fas fa-graduation-cap"></i> Education</h2>
+
+    <div class="timeline">
+        <div class="timeline-icon">
+            <i class="fas fa-plane"></i>
+        </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h4>C.V. Raman Global University <span>(2022–2026)</span></h4>
+        <p><strong>Degree:</strong> B.Tech in Computer Science and Artificial Intelligence</p>
+        <p><strong>CGPA:</strong> 9.35</p>
+      </div>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <h4>DAV Kapildev Public School <span>(2020–2022)</span></h4>
+        <p><strong>Higher Secondary Education:</strong> Class 12th</p>
+        <p><strong>Percentage:</strong> 88.6%</p>
+      </div>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h4>R.B. Springdale Public School <span>(–2020)</span></h4>
+        <p><strong>Matriculation:</strong> Class 10th</p>
+        <p><strong>Percentage:</strong> 91.2%</p>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+</section>
+<section id="skills" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 fw-bold">My Skills</h2>
+
+    <!-- Web Development Category -->
+    <h3 class="category-title">Web Development</h3>
+    <div class="scroll-wrapper" id="web-scroll">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-html5 fa-3x text-danger mb-2"></i>
+            <h6 class="fw-bold">HTML5</h6>
+            <p class="text-muted small">Semantic markup & structure</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-css3-alt fa-3x text-primary mb-2"></i>
+            <h6 class="fw-bold">CSS3</h6>
+            <p class="text-muted small">Responsive layouts, Flexbox</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-js-square fa-3x text-warning mb-2"></i>
+            <h6 class="fw-bold">JavaScript</h6>
+            <p class="text-muted small">ES6+, DOM, APIs</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-react fa-3x text-info mb-2"></i>
+            <h6 class="fw-bold">React.js</h6>
+            <p class="text-muted small">Hooks, JSX, SPA</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-node-js fa-3x text-success mb-2"></i>
+            <h6 class="fw-bold">Node.js</h6>
+            <p class="text-muted small">REST APIs, Express</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-database fa-3x text-secondary mb-2"></i>
+            <h6 class="fw-bold">MongoDB</h6>
+            <p class="text-muted small">Mongoose, NoSQL</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-git-alt fa-3x text-danger mb-2"></i>
+            <h6 class="fw-bold">Git</h6>
+            <p class="text-muted small">Version Control</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fab fa-bootstrap fa-3x text-purple mb-2"></i>
+            <h6 class="fw-bold">Bootstrap</h6>
+            <p class="text-muted small">Responsive UI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ML Category -->
+    <h3 class="category-title">Machine Learning</h3>
+    <div class="scroll-wrapper" id="ml-scroll">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-brain fa-3x text-info mb-2"></i>
+            <h6 class="fw-bold">ML Basics</h6>
+            <p class="text-muted small">Regression, Classification</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-project-diagram fa-3x text-success mb-2"></i>
+            <h6 class="fw-bold">Neural Networks</h6>
+            <p class="text-muted small">ANN, CNN</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-chart-line fa-3x text-warning mb-2"></i>
+            <h6 class="fw-bold">Data Analysis</h6>
+            <p class="text-muted small">Pandas, NumPy, Matplotlib</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-robot fa-3x text-secondary mb-2"></i>
+            <h6 class="fw-bold">Deep Learning</h6>
+            <p class="text-muted small">TensorFlow, Keras</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-database fa-3x text-primary mb-2"></i>
+            <h6 class="fw-bold">Data Preprocessing</h6>
+            <p class="text-muted small">Cleaning, Scaling</p>
+          </div>
+          <div class="skill-card p-4 shadow-sm rounded bg-white">
+            <i class="fas fa-cogs fa-3x text-dark mb-2"></i>
+            <h6 class="fw-bold">Model Tuning</h6>
+            <p class="text-muted small">GridSearchCV, CrossVal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-bold">My Projects</h2>
+
+    <!-- Web Development Projects -->
+    <h4 class="mb-4 fw-semibold text-dark">🌐 Web Development</h4>
+    <div class="row justify-content-center g-4 mb-5">
+      <!-- Web Project 1 -->
+      <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="project-card position-relative overflow-hidden rounded shadow-sm">
+          <img src="images/cgu.png" class="img-fluid w-100 project-img" alt="CGU Marketplace">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <a href="https://www.cgumarketplace.com/" target="_blank" class="text-white fw-bold">View Project</a>
+          </div>
+        </div>
+        <h5 class="mt-3 text-dark">CGU Marketplace</h5>
+        <p class="text-muted small">
+          CGU Marketplace is a secure campus platform for students to buy and sell easily, with filters and image carousel. Powered by Firebase authentication. Reached 18,000 visits in just 3 days,with 959 active users, and 338 registrations.
+        </p>
+
+
+      </div>
+
+      <!-- Web Project 2 -->
+      <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="project-card position-relative overflow-hidden rounded shadow-sm">
+          <img src="images/webblog.png" class="img-fluid w-100 project-img" alt="Blog App">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <a href="https://capstone-project2-webblog.vercel.app/" target="_blank" class="text-white fw-bold">View Project</a>
+          </div>
+        </div>
+        <h5 class="mt-3 text-dark">Blog Platform</h5>
+        <p class="text-muted small">Developed a clean, easy-to-use web blog using EJS and CSS, enabling users to create, update, and delete posts seamlessly. The project focuses on implementing core CRUD operations with a straightforward interface and responsive design.</p>
+      </div>
+    </div>
+
+    <!-- Machine Learning Projects -->
+    <h4 class="mb-4 fw-semibold text-dark">🤖 Machine Learning</h4>
+    <div class="row justify-content-center g-4">
+      <!-- ML Project 1 -->
+      <div class="col-sm-10 col-md-6 col-lg-4">
+        <div class="project-card position-relative overflow-hidden rounded shadow-sm">
+          <img src="images/ml1.png" class="img-fluid w-100 project-img" alt="Wine Quality Predictor">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <a href="https://huggingface.co/spaces/shikhakeshri/wine_quality" target="_blank" class="text-white fw-bold">View Project</a>
+          </div>
+        </div>
+        <h5 class="mt-3 text-dark">Wine Quality Predictor</h5>
+        <p class="text-muted small">Built a Streamlit-based machine learning app that predicts wine quality using classification models. The app features an interactive interface and is hosted on Hugging Face Spaces for easy access and deployment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="certifications" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">My Certifications</h2>
+
+    <div class="cert-grid">
+      <!-- Certificate Card -->
+      <div class="cert-item text-center">
+        <div class="cert-card shadow-sm">
+          <img src="images/web.png" alt="Certificate 1">
+        </div>
+        <p class="mt-2 mb-0 fw-semibold small">Web Development</p>
+      </div>
+
+      <div class="cert-item text-center">
+        <div class="cert-card shadow-sm">
+          <img src="images/sql.png" alt="Certificate 2">
+        </div>
+        <p class="mt-2 mb-0 fw-semibold small">SQL</p>
+      </div>
+
+      <div class="cert-item text-center">
+        <div class="cert-card shadow-sm">
+          <img src="images/genai.png" alt="Certificate 3">
+        </div>
+        <p class="mt-2 mb-0 fw-semibold small">Generative AI</p>
+      </div>
+
+      <div class="cert-item text-center">
+        <div class="cert-card shadow-sm">
+          <img src="images/cyber.png" alt="Certificate 4">
+        </div>
+        <p class="mt-2 mb-0 fw-semibold small">Cyber Security Foundations</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="contact" class="py-5 contact-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left: Contact Form -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="fw-bold mb-4"><i class="bi bi-person-lines-fill me-2"></i>CONTACT</h2>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label class="form-label visually-hidden" for="name">Name</label>
+            <input type="text" id="name" class="form-control contact-input" placeholder="Name" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label visually-hidden" for="email">Email</label>
+            <input type="email" id="email" class="form-control contact-input" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label visually-hidden" for="description">Description</label>
+            <textarea id="description" rows="3" class="form-control contact-input" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-dark px-4 mt-2">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- Right: Description + Icons -->
+      <div class="col-md-6 text-dark">
+        <h4 class="fw-bold mb-3">Get In Touch</h4>
+        <p>
+          I’m a passionate Computer Science student with strong technical and problem-solving skills. Eager to connect with professionals and contribute to meaningful projects through dedication and creativity.
+        </p>
+        <p class="mt-3">
+          <i class="bi bi-envelope-fill me-2"></i> deepshikhakeshri2403@gmail.com
+        </p>
+
+        <!-- Social Icons -->
+        <div class="mt-4 d-flex gap-3 fs-3">
+          <a href="https://www.linkedin.com/in/deepshikha-keshri-833251275" target="_blank" class="text-dark">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/DeepshikhaKeshri" target="_blank" class="text-dark">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://x.com/DeepshikhaKesh8" target="_blank" class="text-dark">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
