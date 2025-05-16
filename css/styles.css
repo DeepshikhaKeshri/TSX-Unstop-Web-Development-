@@ -635,7 +635,7 @@ html {
 
 .cert-card {
   width: 100%;
-  aspect-ratio: 4 / 3; /* maintains consistent proportions */
+  aspect-ratio: 4 / 3; 
   overflow: hidden;
   background: #0b0a0a;
   transition: transform 0.2s ease;
@@ -677,7 +677,6 @@ html {
 /*contact me*/
 
 
-/* Container and general spacing */
 .contact-section {
   background: linear-gradient(to bottom, #e8e4c9, #a6c3b4);
   color: #333;

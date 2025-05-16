@@ -2,11 +2,10 @@ console.log('Portfolio site loaded');
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  // Start smooth scrolling for skill sections
-  startSmoothScroll('web-scroll', 0.9);  // Adjust speed here
+  startSmoothScroll('web-scroll', 0.9);  
   startSmoothScroll('ml-scroll', 0.9);
 
-  // Smooth scrolling for navbar links
+
   const navLinks = document.querySelectorAll('.nav-link');
   for (let link of navLinks) {
       link.addEventListener('click', function (e) {
@@ -22,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   }
 
-  // Highlight active nav link while scrolling
+
   const sections = document.querySelectorAll('section');
   const options = { threshold: 0.6 };
 
@@ -39,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   sections.forEach(section => observer.observe(section));
 
-  // Navbar background toggle on scroll
+ 
   const navbar = document.querySelector('.navbar');
   window.addEventListener('scroll', () => {
       if (window.scrollY > 50) {
@@ -49,23 +48,23 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   });
 
-  // 🌟 Smooth Auto Scroll with translateX
+
   function startSmoothScroll(wrapperId, speed) {
     const wrapper = document.getElementById(wrapperId);
     const scrollContent = wrapper.querySelector('.scroll-content');
     if (!scrollContent) return;
 
-    // Create a wrapper track for scrolling
+
     const scrollTrack = document.createElement('div');
     scrollTrack.classList.add('scroll-track');
     scrollTrack.style.display = 'inline-flex';
     scrollTrack.style.willChange = 'transform';
 
-    // Move content inside track
+
     scrollTrack.appendChild(scrollContent);
     wrapper.appendChild(scrollTrack);
 
-    // Clone content for looping
+
     const clone = scrollContent.cloneNode(true);
     scrollTrack.appendChild(clone);
 
